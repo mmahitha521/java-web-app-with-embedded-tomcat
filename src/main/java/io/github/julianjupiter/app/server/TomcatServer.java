@@ -15,7 +15,7 @@ public class TomcatServer implements Server {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(TomcatServer.class);
 	private static final String DEFAULT_HOST = "localhost";
-	private static final int DEFAULT_PORT = 8080;
+	private static final int DEFAULT_PORT = 8081;
 	private static final String DEFAULT_CONTEXT_PATH = "/app";
 	private static final String DOC_BASE = ".";
 	private static final String ADDITION_WEB_INF_CLASSES = "target/classes";
